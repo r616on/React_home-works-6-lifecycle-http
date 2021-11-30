@@ -1,0 +1,29 @@
+.NoteItem {
+  max-width: 250px;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.NoteItem-row {
+  padding: 15px;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.NoteItem-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  border: 1px solid black;
+  border-radius: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 3px;
+  color: red;
+  background-color: white;
+}

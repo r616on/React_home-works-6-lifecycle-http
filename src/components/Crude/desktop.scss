@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.Crude {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.Crude__top {
+  display: flex;
+  align-items: center;
+}
+.top-title {
+  font-size: 20px;
+}
+.sync {
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 3px;
+  color: green;
+}
+.Crude__row {
+}
+.Crude__form {
+  max-width: 350px;
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+}
+.Crude_lable {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.Crude-input {
+  width: 350px;
+  height: 100px;
+  border: 1px solid black;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+.send {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: 3;
+}

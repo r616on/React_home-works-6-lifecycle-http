@@ -60,7 +60,6 @@ function WorldClock() {
             })}
           </div>
         )}
-        {/* <ClockItem name={"Имя что то"} /> */}
       </div>
     </div>
   );

@@ -25,6 +25,8 @@
   color: green;
 }
 .Crude__row {
+  display: flex;
+  flex-wrap: wrap;
 }
 .Crude__form {
   max-width: 350px;
